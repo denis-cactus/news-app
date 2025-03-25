@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Unsplash Gallery App</title>
+    <link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body>
+<a class="back-btn" href="/index.html">Back to main page</a>
+<section class="gallery-section">
+    <div class="container">
+        <form class="search-form js-search-form">
+            <input type="text" name="query" class="search-input"/>
+            <button type="submit" class="search-btn">Search</button>
+        </form>
+        <span class="loader hidden"></span>
+        <ul class="gallery"></ul>
+        <div id="tui-pagination-container" class="tui-pagination"></div>
+    </div>
+</section>
+<script type="module" src="./js/gallery.js"></script>
+</body>
+</html>

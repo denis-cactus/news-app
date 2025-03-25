@@ -1,0 +1,3 @@
+### GET News
+GET {{BASE_URL}}/everything?q={{q}}&sortBy={{sortBy}}&pageSize={{pageSize}}&page={{page}}&apiKey={{API_KEY}}
+
