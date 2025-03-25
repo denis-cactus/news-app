@@ -4,7 +4,7 @@ export function render(photos) {
 	const markup = photos
 		.map(({alt_description, urls: {small}}) => `
 		  <li class="gallery-item">
-            <img src="${small}" alt="${alt_description}" />
+            <img class="gallery-img" src="${small}" alt="${alt_description}" />
           </li>
 		`)
 		.join("");

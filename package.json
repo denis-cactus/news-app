@@ -16,6 +16,7 @@
     "axios": "^1.8.4",
     "bootstrap": "^5.3.3",
     "dotenv": "^16.4.7",
-    "izitoast": "^1.4.0"
+    "izitoast": "^1.4.0",
+    "tui-pagination": "^3.4.1"
   }
 }
